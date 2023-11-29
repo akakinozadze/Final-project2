@@ -12,4 +12,49 @@
     .button-box-mother {
         display: none;
     }
+    /* ! section-1 */
+    .section-1-main-box {
+        max-width: 750px;
+        min-height: 809px;
+        width: 100%;
+        margin: auto;
+    }
+    .section-1-mother-box {
+        flex-direction: column;
+        max-width: 420px;
+        min-height: 689px;
+    }
+    .section-1-h3 {
+        font-size: 38px;
+        letter-spacing: -2%;
+        line-height: 130%;
+        text-align: center;
+        max-width: 315px;
+        margin: auto;
+        width: 100%;
+    }
+    .section-1-pharagrap1 {
+        font-size: 16px;
+        text-align: center;
+        max-width: 315px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .section-1-button-box1 {
+        margin: auto;
+    }
+    .section-1-button-box2 {
+        display: none;
+    }
+    .section-1-mobile-image {
+        display: none;
+    }
+    .section-1-right-box {
+        background-image: url(../image/mobile.section2.1024.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 320px;
+        min-height: 300px;
+        margin-top: 40px;
+    }
 }

@@ -4,21 +4,80 @@
         margin: auto;
         width: 96%;
     }
+
     .header-box {
         max-width: 910px;
         justify-content: space-between;
     }
+
     .button-box-mother {
         max-width: 202px;
         border-radius: 20px;
     }
+
     .button-box1 {
         margin: auto;
     }
+
     .nav {
         display: none;
     }
+
     .button-box {
         display: none;
+    }
+
+    /* ! section-1 */
+    .section-1-main-box {
+        max-width: 1024px;
+        min-height: 908px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .section-1-mother-box {
+        max-width: 880px;
+        min-height: 708px;
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .section-1-left-box {
+        max-width: 680px;
+        min-height: 348px;
+    }
+
+    .section-1-h3 {
+        font-size: 67px;
+        line-height: 130%;
+        text-align: center;
+    }
+
+    .section-1-pharagrap1 {
+        line-height: 150%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .section-1-button-box2 {
+        display: none;
+    }
+
+    .section-1-button-box1 {
+        margin: auto;
+    }
+
+    .section-1-mobile-image {
+        display: none;
+    }
+
+    .section-1-right-box {
+        max-width: 320px;
+        min-height: 320px;
+        background-image: url(../image/mobile.section2.1024.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aquamarine;
     }
 }
