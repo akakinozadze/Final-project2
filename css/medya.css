@@ -1,0 +1,24 @@
+@media (min-width:750px) and (max-width:1024px) {
+    .header-mother {
+        max-width: 1024px;
+        margin: auto;
+        width: 96%;
+    }
+    .header-box {
+        max-width: 910px;
+        justify-content: space-between;
+    }
+    .button-box-mother {
+        max-width: 202px;
+        border-radius: 20px;
+    }
+    .button-box1 {
+        margin: auto;
+    }
+    .nav {
+        display: none;
+    }
+    .button-box {
+        display: none;
+    }
+}

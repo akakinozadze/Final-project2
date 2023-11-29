@@ -1,18 +1,21 @@
 .body {
-    background-color: #D8D8D8;
+    height: 10000px;
 }
-
+.header {
+    position: fixed;
+    width: 100%;
+    background:linear-gradient(45deg, #6f908c, #bfcecc,#bfcecc);
+    
+}
 .header-mother {
     max-width: 1280px;
-    /* background-color: chartreuse; */
-    height: 100px;
+    height: 60px;
     margin: auto;
     display: grid;
     place-items: center;
 }
 
 .header-box {
-    /* background-color: chocolate; */
     max-width: 1180px;
     height: 60px;
     width: 100%;
@@ -21,42 +24,50 @@
     align-items: center;
 }
 
-.header-image-box {
+.header-image-logo-box {
     max-width: 179px;
     height: 32px;
+    box-shadow: 1px 5px 10px #FF6250;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 0.4s;
 }
-
+.header-image-logo-box:active{
+    box-shadow: 1px 5px 10px #04241d;
+}
 .image-header {
     object-fit: cover;
     width: 100%;
 }
-
 .nav {
-    /* background-color: blue; */
     margin-right: 50px;
+    border-radius: 10px;
+    max-width: 80px;
+    width: 100%;
 }
-
 .ul {
-    max-width: 66px;
-    /* background-color: crimson; */
+    max-width: 80px;
     width: 100%;
     text-align: center;
+    border-radius: 10px;
 }
-
 .li {
     font-size: 16px;
     line-height: 24px;
     color: #009379;
     font-family: 'Poppins';
+    transition: all;
+    transition-duration: 0.4s;
 }
-
+.li:hover {
+    text-shadow: 1px 5px 10px #FF6250;
+}
 .button-box-mother {
     max-width: 559px;
     width: 100%;
     display: flex;
     align-items: center;
 }
-
 .button-box1 {
     max-width: 202px;
     background-color: #aac5c1;
@@ -66,17 +77,15 @@
     width: 100%;
     border: none;
     border-radius: 20px;
-    min-height: 60px;
+    min-height: 50px;
     margin-right: 20px;
     transition: all;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     font-family: 'Poppins';
 }
-
 .button-box1:hover {
-    background-color: #F2BFAF;
+    box-shadow: 1px 5px 10px #FF6250;
 }
-
 .button-box {
     background-color: #009379;
     border: none;
@@ -86,11 +95,12 @@
     justify-content: center;
     color: #FFFFFF;
     max-width: 221px;
-    height: 60px;
+    height: 50px;
     width: 100%;
     font-family: 'Poppins';
+    transition: all;
+    transition-duration: 0.4s;
 }
-
-/* .header-icon-image {
-    margin-right: 8px;
-} */
+.button-box:hover {
+    box-shadow: 1px 5px 10px #FF6250;
+}

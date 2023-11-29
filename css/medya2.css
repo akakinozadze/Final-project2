@@ -1,0 +1,15 @@
+@media (min-width:300px) and (max-width:750px){
+    .header-mother {
+        max-width: 750px;
+    }
+    .header-image-logo-box {
+        margin: auto;
+    }
+    .header-box  {
+        max-width: 750px;
+        width: 90%;
+    }
+    .button-box-mother {
+        display: none;
+    }
+}
