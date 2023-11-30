@@ -235,3 +235,42 @@
     object-fit: cover;
     width: 100%;
 }
+
+/* ! section-2 */
+.section-2-main-box {
+    margin: auto;
+    max-width: 1280px;
+    min-height: 270.32px;
+    width: 100%;
+    display: grid;
+}
+
+.section-2-mother-box {
+    max-width: 1170px;
+    min-height: 150.32px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 90px);
+    grid-template-rows: 27px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.media-icon {
+    object-fit: cover;
+    width: 100%;
+    transition: all;
+    transition-duration: 0.4s;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    transition: all;
+    transition-duration: 0.4s;
+  
+}
+
+.media-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #FF6250;
+}

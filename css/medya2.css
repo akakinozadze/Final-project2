@@ -57,4 +57,18 @@
         min-height: 300px;
         margin-top: 40px;
     }
+    /* ! section-2 */
+    .section-2-main-box {
+        max-width: 375px;
+        min-height: 178.58;
+    }
+    .section-2-mother-box {
+        max-width: 315px;
+        min-height: 118.58px;
+        margin: auto;
+        grid-template-columns: repeat(auto-fit,70px);
+        column-gap:52.5px;
+        row-gap: 44px;
+    
+    }
 }

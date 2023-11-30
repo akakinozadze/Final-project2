@@ -78,6 +78,16 @@
         background-image: url(../image/mobile.section2.1024.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: aquamarine;
+    }
+    /* ! section-2 */
+    .section-2-main-box {
+        max-width: 1024px;
+        width: 98%;
+        min-height: 184px;
+    }
+    .section-2-mother-box {
+        max-width: 816px;
+        min-height: 104px;
+        width: 96%;
     }
 }
