@@ -100,11 +100,13 @@
         margin: auto;
         width: 98%;
     }
+
     .section-3-mother-box {
         max-width: 1024px;
         min-height: 1226px;
         width: 96%;
     }
+
     .section-3-learnMore-box {
         max-width: 1024px;
         min-height: 1093px;
@@ -113,21 +115,69 @@
         margin-top: 40px;
         flex-direction: column;
     }
+
     .section-3-learnMore {
         max-width: 680px;
         min-height: 351px;
     }
+
     .section-3-learnMore-son-box {
         max-width: 620px;
         min-height: 271px;
         width: 100%;
     }
+
     .section-1-h3-box {
         font-size: 16px;
     }
+
     .section-3-pharagrap2 {
         max-width: 620px;
         width: 100%;
     }
-   
+
+    /* ! section-4 */
+    .section-4-main-box {
+        background-color: chocolate;
+        max-width: 1024px;
+        min-height: 494px;
+        width: 98%;
+    }
+
+    .section-4-mother-box {
+        max-width: 680px;
+        min-height: 294px;
+        width: 100%;
+        background-color: chartreuse;
+
+    }
+
+    .section-4-pharagrap1 {
+        max-width: 680px;
+    }
+
+    .section-4-about-box {
+        grid-template-columns: repeat(4, 155px);
+        grid-template-rows: 143px;
+        column-gap: 20px;
+        width: 100%;           
+        background-color: darkred;
+    }
+    .section-4-statistic-box {
+        align-items: center;
+    }
+
+    .section-4-pharagrap2 {
+        max-width: 123px;
+        width: 100%;
+        background-color: rgb(114, 114, 148);
+    }
+
+    .section-4-pharagrap3 {
+        max-width: 123px;
+        width: 100%;
+        background-color: ;rgb(151, 30, 30)
+    }
+
+
 }
