@@ -125,7 +125,7 @@
     }
     .section-3-learnMore-son-box {
         max-width: 255px;
-        width: 90%;
+        width: 96%;
     }
     .section-1-h3-box {
         max-width: 255px;
@@ -153,14 +153,32 @@
     .section-4-about-box {
         max-width: 315px;
         min-height: 327px;
-        grid-template-columns: repeat(auto-fit,147.5px);
+        display: grid;
+        grid-template-columns: repeat(2, minmax(40px,147.5px));
         grid-template-rows: 164px;
         column-gap: 20px;
         row-gap: 20px;
         margin-top: 40px;
         width: 100%;
         background-color: chartreuse;
+        align-items: center;
+        justify-content: center;
        
     }
+    .section-4-son-box {
+        width: 100%;
+        background-color: darkgoldenrod;
+
+    }
+    .section-4-pharagrap2 {
+        max-width: 115.5px;
+        width: 100%;
+    }
+    .section-4-pharagrap3 {
+        max-width: 115.5px;
+        background-color: brown;
+        width: 100%;
+    }
+  
 
 }

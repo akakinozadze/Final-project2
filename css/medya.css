@@ -157,12 +157,14 @@
     }
 
     .section-4-about-box {
+        max-width: 1170px;
         grid-template-columns: repeat(4, 155px);
         grid-template-rows: 143px;
         column-gap: 20px;
-        width: 100%;           
+        width: 100%;
         background-color: darkred;
     }
+
     .section-4-statistic-box {
         align-items: center;
     }
@@ -176,7 +178,7 @@
     .section-4-pharagrap3 {
         max-width: 123px;
         width: 100%;
-        background-color: ;rgb(151, 30, 30)
+
     }
 
 
