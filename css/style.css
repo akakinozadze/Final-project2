@@ -243,7 +243,6 @@
     min-height: 270.32px;
     width: 100%;
     display: grid;
-
 }
 
 .section-2-mother-box {
@@ -273,7 +272,6 @@
     transition: all;
     transition-duration: 0.4s;
     max-width: 70px;
-
 }
 
 .media-icon:hover {
@@ -308,7 +306,6 @@
     max-width: 167px;
     min-height: 49px;
     font-family: 'Poppins';
-
 }
 
 .section-3-pharagrap1 {
@@ -338,7 +335,6 @@
     background-color: #e6dada;
     column-gap: 30px;
     border-radius: 6px;
-
 }
 
 .section-3-learnMore-son-box {
@@ -366,7 +362,6 @@
 .section-3-icon2 {
     background-color: #73e7d2;
     box-shadow: 5px 5px 30px #6bd1be;
-
 }
 
 .section-3-icon3 {
@@ -476,7 +471,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .section-4-h3 {
@@ -521,7 +515,6 @@
     transition: all;
     transition-duration: 0.3s;
     background-color: #e6dada;
-
 }
 .section-4-son-box:hover {
     border-bottom: 5px solid #FF6250;;
@@ -540,8 +533,6 @@
     font-family: 'Mulish';
 
 }
-
-
 .section-4-pharagrap3 {
     font-size: 16px;
     color: #2D2D2D;
@@ -552,4 +543,30 @@
     width: 100%;
     font-family: 'Mulish';
 }
-
+/*! section-5 */
+.section-5-main-box {
+    max-width: 1280px;
+    min-height: 690px;
+    background-color: #009379;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.section-5-mother-box {
+    max-width: 1170px;
+    min-height: 450px;
+    width: 100%;
+    background-color: #9b781a;
+   
+}
+.section-5-left-box {
+    max-width: 540px;
+    min-height: 450px;
+    width: 100%;
+    background-color: #80ffe8;
+}
+.section-5-imag {
+    object-fit: cover;
+    width: 100%;
+}

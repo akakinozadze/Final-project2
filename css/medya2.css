@@ -72,7 +72,7 @@
 
     /* ! section-2 */
     .section-2-main-box {
-        max-width: 375px;
+        max-width: 370px;
         min-height: 178.58;
         width: 96%;
     }
@@ -110,9 +110,10 @@
     .section-3-pharagrap1 {
         max-width: 305px;
         min-height: 72px;
-        margin: auto;    
-        margin-top: 20px;    
+        margin: auto;
+        margin-top: 20px;
     }
+
     .section-3-learnMore-box {
         max-width: 750px;
         min-height: 1320px;
@@ -122,41 +123,48 @@
         flex-direction: column;
         justify-content: space-between;
     }
+
     .section-3-learnMore {
         max-width: 350px;
         min-height: 408px;
         width: 96%;
     }
+
     .section-3-learnMore-son-box {
         max-width: 255px;
         width: 96%;
     }
+
     .section-1-h3-box {
         max-width: 255px;
         text-align: center;
         width: 100%;
     }
+
     /* ! section-4 */
-    .section-4-main-box  {
+    .section-4-main-box {
         max-width: 750px;
         width: 96%;
         min-height: 668px;
     }
+
     .section-4-mother-box {
         max-width: 315px;
         min-height: 548px;
         width: 96%;
     }
+
     .section-4-h3 {
         max-width: 315px;
         width: 100%;
         text-align: center;
     }
+
     .section-4-about-box {
         max-width: 315px;
         min-height: 327px;
         display: grid;
-        grid-template-columns: repeat(2, minmax(40px,147.5px));
+        grid-template-columns: repeat(2, minmax(40px, 147.5px));
         grid-template-rows: 164px;
         column-gap: 20px;
         row-gap: 20px;
@@ -164,19 +172,37 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-       
+
     }
+
     .section-4-son-box {
         width: 100%
     }
+
     .section-4-pharagrap2 {
         max-width: 115.5px;
         width: 100%;
     }
+
     .section-4-pharagrap3 {
         max-width: 115.5px;
         width: 100%;
     }
-  
+
+    /* ! section-5 */
+    .section-5-main-box {
+        max-width: 750px;
+        min-height: 646.67px;
+        width: 100%;
+
+    }
+    .section-5-mother-box {
+        max-width: 320px;
+        min-height: 526.67px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
 
 }
