@@ -193,9 +193,9 @@
     .section-5-main-box {
         max-width: 750px;
         min-height: 646.67px;
-        width: 100%;
-
+        width: 96%;
     }
+
     .section-5-mother-box {
         max-width: 320px;
         min-height: 526.67px;
@@ -204,5 +204,45 @@
         row-gap: 20px;
     }
 
+    .section-5-image {
+        display: none;
+    }
 
+    .section-5-left-box {
+        max-width: 320px;
+        min-height: 266.67px;
+        background-image: url(../image/mobile.section2.1024.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+
+    }
+
+    .section-5-right-box {
+        display: flex;
+        flex-direction: column;
+        max-width: 315px;
+        width: 100%;
+        min-height: 240px;
+
+    }
+
+    .section-5-h3 {
+        font-size: 28px;
+        width: 100%;
+        line-height: 130%;
+        text-align: center;
+
+    }
+
+    .section-5-pharagrap {
+        text-align: center;
+        margin-top: 20px;
+        max-width: 315px;
+        width: 100%;
+    }
+
+    .section-5-button {
+        margin-top: 40px;
+    }
 }

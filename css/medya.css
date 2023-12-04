@@ -180,12 +180,50 @@
         width: 98%;
         max-width: 1024px;
         min-height: 466.67px;
-
     }
 
     .section-5-mother-box {
         max-width: 680px;
         min-height: 266.67px;
+        width: 100%;
+    }
+
+    .section-5-righto-box2 {
+        max-width: 320px;
+        min-height: 266.67px;
+        background-image: url(../image/mobile.section2.1024.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .section-5-right-box {
+        max-width: 680px;
+        min-height: 266px;
+        display: flex;
+        flex-direction: column;
         
     }
+
+    .section-5-image {
+        display: none;
+    }
+
+    .section-5-h3 {
+        font-size: 38px;
+        max-width: 340px;
+        width: 100%;
+        line-height: 130%;
+        text-align: top;
+    }
+
+    .section-5-pharagrap {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .section-5-button {
+       margin-right: 90px;
+    }
+
 }
