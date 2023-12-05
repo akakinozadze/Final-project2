@@ -245,4 +245,47 @@
     .section-5-button {
         margin-top: 40px;
     }
+
+    /* ! section-6 */
+    .section-6-main-box {
+        max-width: 750px;
+        min-height: 1193.25px;
+        width: 98%;
+        background-color: #347267;
+        margin: auto;
+        display: grid;
+        place-items: center;
+    }
+
+    .section-6-mother-box {
+        max-width: 315px;
+        min-height: 1673.25px;
+        width: 96%;
+        background-color: rgb(119, 153, 64);
+
+    }
+    .section-6-h3 {
+        max-width: 315px;
+        width: 100%;
+        text-align: center;   
+        background-color: aliceblue;    
+    }
+    .section-6-pharagrap1 {      
+        max-width: 315px;
+        width: 100%;
+        background-color: aliceblue;
+    }
+    .section-6-son-box {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+    }
+    .section-6-box {
+        max-width: 315px;
+        min-height: 458.08px;
+        width: 100%;
+       
+       
+    }
 }
