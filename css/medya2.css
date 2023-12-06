@@ -281,4 +281,61 @@
         min-height: 458.08px;
         width: 100%;          
     }
+    /* ! section-7 */
+    .section-7-main-box {
+        max-width: 750px;
+        min-height: 1678px;
+        width: 98%;
+    }
+    .section-7-son-box {
+        display: flex;
+        flex-direction: column;
+        max-width: 315px;
+        min-height: 1358px;
+        width: 100%;
+        row-gap: 30px;
+    }
+    .section-7-box {
+        max-width: 315px;
+        min-height: 450px;
+        width: 96%;
+        margin: auto;
+    }
+    .section-7-pharagrap2 {
+        max-width: 255px;
+        width: 100%;
+    }
+    .section-7-mony-box {
+        max-width: 255px;
+        width: 100%;
+    }
+    .section-7-pharagrap4 {
+        max-width: 178px;
+        width: 100%;
+    }
+    .section-7-pharagrap5 {
+        max-width: 255px;
+        width: 100%;
+        text-align: start;
+    }
+    .section-7-ul {
+        max-width: 255px;
+        width: 100%;
+    }
+    .section-7-buttpn-box {
+        max-width: 255px;
+        width: 100%;
+    }
+    .section-7-button {
+        max-width: 255px;
+        width: 100%;
+    }
+    .section-7-pharagrap41 {
+        max-width: 162px;
+        width: 100%;
+    }
+    .section-7-pharagrap32 {
+        max-width: 88px;
+        width: 100%;
+    }
 }
