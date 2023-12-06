@@ -639,7 +639,6 @@
     max-width: 1280px;
     min-height: 824.08px;
     width: 100%;
-    background-color: #009379;
     margin: auto;
     display: grid;
     place-items: center;
@@ -649,8 +648,6 @@
     max-width: 1170px;
     min-height: 584.05px;
     width: 100%;
-    background-color: chartreuse;
-
 }
 
 .section-6-h3 {
@@ -677,11 +674,11 @@
 .section-6-son-box {
     max-width: 1170px;
     min-height: 434.08px;
-    background-color: #702f28;
     margin-top: 60px;
     width: 100%;
     display: flex;
     column-gap: 30px;
+   
 }
 
 .section-6-box {
@@ -689,14 +686,26 @@
     width: 100%;
     max-width: 370px;
     min-height: 434.08px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
 }
-
+.section-6-all-box {
+    max-width: 310px;
+    min-height: 354.08px;
+    width: 100%;
+}
+.section-6-image-box1 {
+    max-width: 310px;
+    min-height: 127px;
+    width: 100%;
+    margin: auto;
+}
 .section-6-image-box {
     max-width: 56px;
     min-height: 56px;
     width: 100%;
     border-radius: 50px;
-    background-color: #009379;
     margin: auto;
 }
 
@@ -738,7 +747,6 @@
     max-width: 310px;
     width: 100%;
     margin: auto;
-    background-color: #47370a;
     display: flex;
     justify-content: center;
     column-gap: 5px;
@@ -746,5 +754,4 @@
 }
 .section-6-star-box2 {
     margin-top: 54px;
-    background-color: #73e7d2;
 }
