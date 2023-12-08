@@ -345,21 +345,43 @@
     .section-8-main-box {
         max-width: 1024px;
         min-height: 667px;
-        width: 98%;
-        background-color: aquamarine;
+        width: 98%;;
     }
 
     .section-8-pharagrap-box {
         max-width: 680px;
-        background-color: cornflowerblue;
         margin: auto;
-
     }
+
     .section-8-mother-box {
         max-width: 680px;
         min-height: 354px;
-        background-color: darkolivegreen;
         margin: auto;
         margin-top: 40px;
+    }
+
+    .section-8-box {
+        max-width: 213.33px;
+        min-height: 354px;
+        width: 100%;
+    }
+
+    .section-8-image {
+        display: none;
+    }
+
+    .section-8-image-box {
+        max-width: 213.33px;
+        height: 172px;
+        width: 100%;
+        background-image: url(../image/sarah1024.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-8-image-box2 {
+        background-image: url(../image/michael1024.svg);
+    }
+    .section-8-image-box3 {
+        background-image: url(../image/lauren1024.svg);
     }
 }

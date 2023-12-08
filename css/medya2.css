@@ -372,14 +372,49 @@
     .section-8-main-box {
         max-width: 750px;
         min-height: 1704px;
-        background-color: chocolate;
         width: 100%;
     }
+
     .section-8-pharagrap-box {
         max-width: 315px;
         min-height: 117px;
-        background-color: darkseagreen;
         margin: auto;
         width: 96%;
+    }
+
+    .section-8-mother-box {
+        max-width: 315px;
+        min-height: 1407px;
+        margin: auto;
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+    .section-8-image {
+        display: none;
+    }
+
+    .section-8-image-box {
+        max-width: 315px;
+        height: 278ox;
+        width: 100%;
+        background-image: url(../image/Profile.Image.Placeholder.image375.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-8-image-box2 {
+        background-image: url(../image/Profile.Image.Placeholder.image375.2.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-8-image-box3 {
+        background-image: url(../image/Profile.Image.Placeholder.image375.3.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
