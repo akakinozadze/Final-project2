@@ -278,12 +278,14 @@
         justify-content: start;
 
     }
+
     /* ! section-7 */
     .section-7-main-box {
         max-width: 1024px;
         min-height: 1744px;
         width: 98%;
     }
+
     .section-7-son-box {
         max-width: 680px;
         min-height: 1414px;
@@ -292,42 +294,72 @@
         flex-direction: column;
         row-gap: 20px;
     }
+
     .section-7-box {
         max-width: 680px;
         height: 458px;
-        width: 100%;       
+        width: 100%;
     }
+
     .section-7-pharagrap2 {
         max-width: 620px;
         width: 100%;
     }
+
     .section-7-mony-box {
         max-width: 620px;
         height: 92px;
         width: 100%;
-        display: grid;   
+        display: grid;
     }
+
     .section-7-pharagrap4 {
         margin-top: 1px;
     }
+
     .section-7-pharagrap41 {
         margin-top: 1px;
     }
+
     .section-7-pharagrap5 {
         max-width: 620px;
         width: 100%;
     }
+
     .section-7-ul {
         max-width: 620px;
         width: 100%;
     }
+
     .section-7-buttpn-box {
         max-width: 620px;
         width: 100%;
     }
+
     .section-7-button {
         width: 100%;
         max-width: 620px
     }
 
+    /* ! section-8 */
+    .section-8-main-box {
+        max-width: 1024px;
+        min-height: 667px;
+        width: 98%;
+        background-color: aquamarine;
+    }
+
+    .section-8-pharagrap-box {
+        max-width: 680px;
+        background-color: cornflowerblue;
+        margin: auto;
+
+    }
+    .section-8-mother-box {
+        max-width: 680px;
+        min-height: 354px;
+        background-color: darkolivegreen;
+        margin: auto;
+        margin-top: 40px;
+    }
 }

@@ -261,32 +261,38 @@
         min-height: 1673.25px;
         width: 96%;
     }
+
     .section-6-h3 {
         max-width: 315px;
         width: 100%;
-        text-align: center;   
+        text-align: center;
     }
-    .section-6-pharagrap1 {      
+
+    .section-6-pharagrap1 {
         max-width: 315px;
         width: 100%;
     }
+
     .section-6-son-box {
         display: flex;
         flex-direction: column;
         row-gap: 30px;
 
     }
+
     .section-6-box {
         max-width: 315px;
         min-height: 458.08px;
-        width: 100%;          
+        width: 100%;
     }
+
     /* ! section-7 */
     .section-7-main-box {
         max-width: 750px;
         min-height: 1678px;
         width: 98%;
     }
+
     .section-7-son-box {
         display: flex;
         flex-direction: column;
@@ -295,47 +301,85 @@
         width: 100%;
         row-gap: 30px;
     }
+
+    .section-7-h2 {
+        max-width: 315px;
+        width: 96%;
+        margin: auto;
+    }
+
+    .section-7-pharagrap1 {
+        max-width: 315px;
+        width: 96%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
     .section-7-box {
         max-width: 315px;
         min-height: 450px;
         width: 96%;
         margin: auto;
     }
+
     .section-7-pharagrap2 {
         max-width: 255px;
         width: 100%;
     }
+
     .section-7-mony-box {
         max-width: 255px;
         width: 100%;
     }
+
     .section-7-pharagrap4 {
         max-width: 178px;
         width: 100%;
     }
+
     .section-7-pharagrap5 {
         max-width: 255px;
         width: 100%;
         text-align: start;
     }
+
     .section-7-ul {
         max-width: 255px;
         width: 100%;
     }
+
     .section-7-buttpn-box {
         max-width: 255px;
         width: 100%;
     }
+
     .section-7-button {
         max-width: 255px;
         width: 100%;
     }
+
     .section-7-pharagrap41 {
         max-width: 162px;
         width: 100%;
     }
+
     .section-7-pharagrap32 {
         max-width: 88px;
         width: 100%;
+    }
+
+    /* ! section-8 */
+    .section-8-main-box {
+        max-width: 750px;
+        min-height: 1704px;
+        background-color: chocolate;
+        width: 100%;
+    }
+    .section-8-pharagrap-box {
+        max-width: 315px;
+        min-height: 117px;
+        background-color: darkseagreen;
+        margin: auto;
+        width: 96%;
     }
 }
