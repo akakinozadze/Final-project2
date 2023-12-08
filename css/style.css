@@ -1047,6 +1047,7 @@
     min-height: 459px;
     width: 100%;
     border-radius: 20px;
+    background-color: #FFFFFF;
 }
 
 .section-8-image-box {
@@ -1105,9 +1106,9 @@
     transition-duration: 0.4s;
 
 }
+
 .section-8-icon:hover {
     box-shadow: 3px 3px 10px#FF6250;
-    /* stroke: #009379; */
     transform: scale(1.1);
 }
 
@@ -1119,4 +1120,73 @@
     height: 100%;
     transition: all;
     transition-duration: 0.4s;
+}
+
+/* ! section-9 */
+.section-9-main-box {
+    max-width: 1280px;
+    min-height: 554px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+   
+}
+
+.section-9-mother-box {
+    max-width: 1170px;
+    min-height: 434px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #F2BFAF;
+    display: flex;
+    border-radius: 20px;
+}
+.section-9-left-box {
+    max-width: 586px;
+    min-height: 434px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+.section-9-left-son-box {
+    max-width: 466px;
+    min-height: 314px;
+    width: 100%;
+}
+.section-9-h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: -2%;
+    text-align: start;
+    font-family: 'Poppins';
+    color: #2D2D2D;
+    max-width: 466px;
+    width: 100%;
+}
+.section-9-pharagrap1 {
+    max-width: 466px;
+    width: 100%;
+    color: #2D2D2D;
+    font-family: 'Mulish';
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
+    text-align: start;
+    margin-top: 20px;
+}
+.section-91 {
+    margin-top: 40px;
+}
+.section-9-right-box {
+    max-width: 584px;
+    min-height: 434px;
+    width: 100%;
+}
+.section-9-right-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }

@@ -417,4 +417,62 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    /* ! section-9 */
+    .section-9-main-box {
+        max-width: 750px;
+        min-height: 641.81px;
+        width: 96%;
+    }
+
+    .section-9-mother-box {
+        max-width: 315px;
+        min-height: 581.81px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-9-left-box {
+        max-width: 315px;
+        min-height: 344px;
+        width: 100%;
+    }
+
+    .section-9-left-son-box {
+        max-width: 260px;
+        min-height: 264px;
+        width: 100%;
+    }
+
+    .section-9-h2 {
+        font-size: 28px;
+        text-align: center;
+        width: 100%;
+        letter-spacing: -1%;
+        max-width: 255px;
+        margin: auto;
+    }
+
+    .button-91 {
+        max-width: 260px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .section-9-pharagrap1 {
+        text-align: center;
+        max-width: 255px;
+        margin: auto;
+    }
+    .section-9-right-image {
+        display: none;
+    }
+    .section-9-right-box {
+        max-width: 320px;
+        min-height: 237.81px;
+        width: 100%;
+        background-image: url(../image/Mockup.3.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
