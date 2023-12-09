@@ -446,4 +446,68 @@
         background-repeat: no-repeat;
         border-radius: 20px;
     }
+    /* ! section-10 */
+    .section-10-main-box {
+        max-width: 1024px;
+        min-height: 764px;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-10-pharagrap-box {
+        max-width: 600px;
+        min-height: 107px;
+        width: 100%;
+    }
+    .section-10-h3 {
+        max-width: 465px;
+        width: 100%;
+    }
+    .section-10-pharagerap1 {
+        max-width: 465px;
+        width: 100%;
+    }
+    .section-10-mother-box {
+        max-width: 600px;
+        min-height: 437px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-10-phone-icon {
+        max-width: 465px;
+        width: 100%;
+    }
+    .section-10-phone-icon {
+        max-width: 465px;
+        width: 100%;
+    }
+    .section-10-connect-with-us-box {
+        margin-top: 40px;
+    }
+    .section-10-h2 {
+        max-width: 465px;
+        width: 100%;
+    }
+    .section-10-button-box {
+        max-width: 600px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .section-10-form {
+        max-width: 600px;
+        width: 100%;
+    }
+    .section-10-input {
+        width: 100%;
+        max-width: 560px;
+    }
+    .section-10-input21 {
+        max-width: 519px;
+        width: 100%;
+    }
+    .section-10-form1 {
+        max-width: 600px;
+        width: 100%;
+    }
 }
