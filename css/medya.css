@@ -33,7 +33,6 @@
         min-height: 908px;
         width: 100%;
         margin: auto;
-
     }
 
     .section-1-mother-box {
@@ -202,7 +201,6 @@
         min-height: 266px;
         display: flex;
         flex-direction: column;
-
     }
 
     .section-5-image {
@@ -280,7 +278,6 @@
     .section-6-star-box {
         display: flex;
         justify-content: start;
-
     }
 
     /* ! section-7 */
@@ -350,7 +347,6 @@
         max-width: 1024px;
         min-height: 667px;
         width: 98%;
-        ;
     }
 
     .section-8-pharagrap-box {
@@ -425,19 +421,16 @@
         max-width: 300px;
         width: 100%;
         font-size: 38px;
-
     }
 
     .button-91 {
         max-width: 221px;
-        width: 100%;
-       
+        width: 100%;   
     }
 
     .button-9 {
         max-width: 221px;
-        width: 100%;
-       
+        width: 100%;     
     }
 
     .section-9-right-image {
